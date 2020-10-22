@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Sign In Form</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="left">
+        <h1>
+          Learn to code by <br />
+          watching others
+        </h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div id="right">
+        <div class="cards">
+          <h2>Try it free 7 days <span>then $20/mo. thereafter</span></h2>
+        </div>
+
+        <form action="/" class="cards" id="myForm">
+          <div class="form-control">
+            <label for=""></label>
+            <input type="text" placeholder="First Name" id="firstName" />
+            <img src="./images/icon-error.svg" alt="" />
+            <small>Error Message</small>
+          </div>
+          <div class="form-control">
+            <label for=""></label>
+            <input type="text" placeholder="Last Name" id="lastName" />
+            <img src="./images/icon-error.svg" alt="" />
+            <small>Error Message</small>
+          </div>
+          <div class="form-control">
+            <label for=""></label>
+            <input type="email" placeholder="Email Address" id="email" />
+            <img src="./images/icon-error.svg" alt="" />
+            <small>Error Message</small>
+          </div>
+          <div class="form-control">
+            <label for=""></label>
+            <input type="password" placeholder="Password" id="password" />
+            <img src="./images/icon-error.svg" alt="" />
+            <small>Error Message</small>
+          </div>
+
+          <button id="btn" class="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+          <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </form>
+      </div>
+    </div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
+git init
+git add --all
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pvcodes/socialmedia-dashboard.git
+git push -u origin main
+                
